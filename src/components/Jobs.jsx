@@ -50,8 +50,8 @@ function Jobs() {
             <div className='text'>
                 <h1>Please wait for {number} seconds..</h1>
             </div>
-            <div className='button'>
-                {showLink ? <button className='buttonJobs'><a href="https://match.myanatomy.in/corporate/customCampaign/view?publicLink=bf10b330212135e27fab916dab322b7a;b07628c1023996aedb645feecd890f3301dd4d75bd62d5cd3321ce06df47c0383e6e4cf0a474955b95ed418e8427a012eb9bbe51cfee8c777cc03a4f62ac72732ac2f7e22b7f88f6969a38cddb5c6beefb94409aed7f2a8c86dcc2efe2a7fb378afda05ae207f281c917ab94b0feccbae3e59357f25719f1b13a7facbfd79f44c3e8536239cfa316559c1b79895e0f60ffe0c5b2d71705205168a9283ea553fb20c65acdb8f8954e67ad5ecbf129a6e17a541ce29e87c745821b2046bce487789f0e0488cff5208849e1f3a3932617b1&source=jobsorigin.com">Generated</a></button> : <button>Generating link..</button>}
+            <div className='bu'>
+                {showLink ? <button className='buttonJobs'><a href="https://match.myanatomy.in/corporate/customCampaign/view?publicLink=bf10b330212135e27fab916dab322b7a;b07628c1023996aedb645feecd890f3301dd4d75bd62d5cd3321ce06df47c0383e6e4cf0a474955b95ed418e8427a012eb9bbe51cfee8c777cc03a4f62ac72732ac2f7e22b7f88f6969a38cddb5c6beefb94409aed7f2a8c86dcc2efe2a7fb378afda05ae207f281c917ab94b0feccbae3e59357f25719f1b13a7facbfd79f44c3e8536239cfa316559c1b79895e0f60ffe0c5b2d71705205168a9283ea553fb20c65acdb8f8954e67ad5ecbf129a6e17a541ce29e87c745821b2046bce487789f0e0488cff5208849e1f3a3932617b1&source=jobsorigin.com">Generated</a></button> : <button className='buttonJobs'>Generating link..</button>}
             </div>
         </>
     );
