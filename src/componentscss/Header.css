@@ -1,0 +1,17 @@
+.logo{
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2%;
+}
+
+@media only screen and (max-width: 768px){
+    .text{
+        size: 1px;
+        font-size: 0.7rem;
+    }
+    .logo{
+        width: 3rem;
+        height: 3rem;
+        margin-left: 2%;
+    }
+}
