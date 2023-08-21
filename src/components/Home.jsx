@@ -12,38 +12,14 @@ function Home() {
         </div>
         <div className="box">
         <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
+            <div className='btn'>
+            <button className="button-1">Apply</button>
+            </div>
+        </div>
+        <div className="container-Jobs">
             <button className="button-1">Apply</button>
         </div>
         <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
-            <button className="button-1">Apply</button>
-        </div>
-        <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
-            <button className="button-1">Apply</button>
-        </div>
-        <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
-            <button className="button-1">Apply</button>
-        </div>
-        <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
-            <button className="button-1">Apply</button>
-        </div>
-        <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
-            <button className="button-1">Apply</button>
-        </div>
-        <div className="container-Jobs">
-            <h1>Title</h1>
-            <p>job discriptions</p>
             <button className="button-1">Apply</button>
         </div>
         </div>

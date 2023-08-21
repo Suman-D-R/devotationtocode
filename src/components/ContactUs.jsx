@@ -4,9 +4,9 @@ import '../componentscss/ContactUs.css';
 
 function ContactUs() {
     return (
-        <div className="container">
-            <h1 id='h1'>Contact Us</h1>
-            <p id='p'>We'd love to hear from you! Please use the form below to get in touch with us.</p>
+        <div className="container-1">
+            <h1 className='h1-1'>Contact Us</h1>
+            <p className='p-1'>We'd love to hear from you! Please use the form below to get in touch with us.</p>
             <form className="contact-form">
                 <label htmlFor="name">Name:</label>
                 <input type="text" id="name" name="name" required />

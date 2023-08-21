@@ -1,0 +1,31 @@
+@media only screen and (max-width:600px) {
+    h1 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: .7em;
+        text-align: center;
+    }
+    .button {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        margin-top: 10px;
+    }
+    .buttonJobs {
+        background-color: #48494a;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .buttonJobs a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+}

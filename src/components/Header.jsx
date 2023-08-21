@@ -33,6 +33,7 @@ function Header() {
               Jobs
             </NavDropdown.Item>
           </NavDropdown>
+          <Nav.Link className="text" href="/Jobs">Jobs</Nav.Link>
           <Nav.Link className="text" href="/ContactUs">contact us</Nav.Link>
           <Nav.Link className="text" href="/About">About</Nav.Link>
         </Nav>
