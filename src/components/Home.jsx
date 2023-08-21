@@ -9,6 +9,7 @@ function Home() {
             <h1>Welcome to Our Job Portal</h1>
             <p>Find your dream job with us. Browse through various job listings and apply today!</p>
             <Link to="/jobs" className="button_job">Browse Jobs</Link>
+            <h1>CSS developer required if your are intrested DM me in Whatsapp</h1>
         </div>
         <div className="box">
         <div className="container-Jobs">
