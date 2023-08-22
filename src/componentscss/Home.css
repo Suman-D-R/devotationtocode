@@ -3,7 +3,7 @@
 .home-container {
     text-align: center;
     padding: 50px;
-    background-color: #f5f5f5;
+    background: linear-gradient(to bottom right, #fbd4ff, #9cfffc) !important;
 }
 
 .heading {
@@ -21,7 +21,7 @@
 .button_job {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #787878;
+    background: linear-gradient(to bottom right, #58e7e5, #6f00c9) !important;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -58,6 +58,10 @@
     font-size: 16px;
     padding: 10px 20px;
     margin: 0 auto;
+    border: none;
+    box-shadow: #ec3eff;
+    background: linear-gradient(to bottom right, #ec3eff, #f91b1b) !important;
+
 
 }
 
@@ -70,13 +74,17 @@
     margin: 5px;
     height: 250px;
     border-radius: 3%;
+    background-color: white;
+
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .box {
     display: flex;
     overflow-x: scroll;
-    margin-top: 20px;
+    margin-top: 0px;
+    background: linear-gradient(to bottom right, #facdff, #c9f2f6) !important;
+
 }
 .box::-webkit-scrollbar{
     display: none;
@@ -134,6 +142,7 @@
         margin: 5px;
         height: 150px;
         border-radius: 3%;
+        background-color: white;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
@@ -141,7 +150,9 @@
         display: flex;
         overflow-x: scroll;
         max-height: calc(100vh - 200px);
-        margin-top: 20px;
+        margin-top: 0px;
+        background: linear-gradient(to bottom right, #facdff, #c9f2f6) !important;
+
     }
     .box::-webkit-scrollbar{
         display: none;
