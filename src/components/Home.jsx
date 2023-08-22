@@ -1,29 +1,36 @@
 import React from 'react';
 import '../componentscss/Home.css';
-import { Link } from 'react-router-dom'; // If you're using React Router for navigation
+import { Link } from 'react-router-dom';
+import jobs from '../Data/JobData';
+
 
 function Home() {
+
     return (
         <>
-        <div className="home-container">
-            <h1>Welcome to Our Job Portal</h1>
-            <p>Find your dream job with us. Browse through various job listings and apply today!</p>
-            <Link to="/jobs" className="button_job">Browse Jobs</Link>
-            <h1>CSS developer required if your are intrested DM me in Whatsapp</h1>
-        </div>
-        <div className="box">
-        <div className="container-Jobs">
-            <div className='btn'>
-            <button className="button-1">Apply</button>
+            <div className="home-container">
+                <h1>Welcome to Our Job Portal</h1>
+                <p>Find your dream job with us. Browse through various job listings and apply today!</p>
+                <Link to="/jobs" className="button_job">Browse Jobs</Link>
             </div>
-        </div>
-        <div className="container-Jobs">
-            <button className="button-1">Apply</button>
-        </div>
-        <div className="container-Jobs">
-            <button className="button-1">Apply</button>
-        </div>
-        </div>
+            <div className="box">
+                {
+                    jobs.map(job =>
+                        <div className="container-Jobs">
+                            <div className='title'><h1>{job.title}</h1>
+                                <p>
+                                    {job.info}
+                                </p>
+                                <p>{job.stream}</p>
+                                </div>
+                            <div className='btn'>
+                                <button href="/Portel" className="button-1" >Apply</button>
+                            </div>
+                        </div>)
+                }
+            </div>
+            <div></div>
+
         </>
     );
 }

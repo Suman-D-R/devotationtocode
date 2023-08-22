@@ -4,7 +4,7 @@
     margin-right: 2%;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     .text{
         size: 1px;
         font-size: 0.7rem;

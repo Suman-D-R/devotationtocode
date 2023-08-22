@@ -32,32 +32,121 @@
 .button_job:hover {
     background-color: #4e4f4f;
 }
-@media only screen and (max-width:600px){
+.title {
+    height: 190px;
+    width: 240px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+  
+}
+.title::scrollbar {
+    display: none;
+}
+
+.btn {
+    margin-top: 0rem;
+    justify-content: center;
+    text-align: center;
+    display: block;
+
+}
+
+.button-1 {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 auto;
+
+}
+
+.button-1:hover {
+    background-color: #393f3f;
+}
+
+.container-Jobs {
+    width: 250px;
+    margin: 5px;
+    height: 250px;
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box {
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 20px;
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+.router::-webkit-scrollbar{
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
     .button_job {
         font-size: 10px;
         margin-bottom: 10px;
         padding: 5px 10px;
     }
+
     .button_job:hover {
         background-color: #393f3f;
     }
+
+
+    .title {
+        height: 100px;
+        width: 140px;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+      
+    }
+    .title::scrollbar {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 0rem;
+        margin-left: 2em;
+        margin-right: 2em;
+
+    }
+
     .button-1 {
         font-size: 10px;
-        margin-bottom: 10px;
         padding: 5px 10px;
+        margin: 0 auto;
+
     }
+
     .button-1:hover {
         background-color: #393f3f;
     }
-    .btn{
-        margin-top: 0%;
-        align-items: center;
-    }
-    .container-Jobs{
-        width:200px;
+
+    .container-Jobs {
+        width: 150px;
+        margin: 5px;
         height: 150px;
         border-radius: 3%;
-        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; 
-        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .box {
+        display: flex;
+        overflow-x: scroll;
+        max-height: calc(100vh - 200px);
+        margin-top: 20px;
+    }
+    .box::-webkit-scrollbar{
+        display: none;
+    }
+    .router::-webkit-scrollbar{
+        display: none;
     }
 }
