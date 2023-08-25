@@ -3,7 +3,7 @@
   max-width: 800px;
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(to bottom right, #facdff, #c9f2f6) !important;
+  background: linear-gradient(to bottom right, #dff8fa, #eae6eb) !important;
 }
 
 .job-table table {
@@ -22,11 +22,11 @@
 }
 
 .job-table tbody tr:nth-child(even) {
-  background: linear-gradient(to bottom right, #c9f2f6, #facdff) !important;
+  background: linear-gradient(to bottom right, #dff8fa, #eae6eb) !important;
 }
 
 .job-table tbody tr:hover {
-  background: linear-gradient(to bottom right, #c9f2f6, #facdff) !important;
+  background: linear-gradient(to bottom right, #c9f2f6, #eee1ef) !important;
 }
 .aboutcompany {
   width: 90%;
@@ -81,7 +81,7 @@
     margin: 1px auto;
     width: 80%;
     border-collapse: collapse;
-    background: linear-gradient(to bottom right, #facdff, #c9f2f6) !important;
+    background: linear-gradient(to bottom right, #dff8fa, #eae6eb) !important;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: flex-start;
@@ -105,7 +105,7 @@
   }
 
   .job-table tbody tr:nth-child(even) {
-    background: linear-gradient(to bottom right, #c9f2f6, #facdff) !important;
+    background: linear-gradient(to bottom right, #dff8fa, #eae6eb) !important;
   }
 
   .job-table tbody tr:hover {
@@ -128,6 +128,12 @@
   .aboutcompany {
     width: 90%;
     padding: 0 20px;
+  }
+  .aboutcompany h1{
+    padding: 0 ;
+  }
+  .aboutcompany h2{
+    padding-bottom: 20px;
   }
   .requriments {
     width: 90%;
