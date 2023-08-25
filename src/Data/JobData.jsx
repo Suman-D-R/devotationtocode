@@ -1,43 +1,124 @@
 const Jobs = [
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
+
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 },
 {
-    title:"Accenture",
-    info:"Software assoate developer",
-    stream:"BE/B.Tech"
+    title:"Zoho",
+    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
+    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
+    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Technical Support Engineer",
+    Experience:"Freshers/Experneced",
+    Qualification:"Any Degree",
+    year:"Any Batch",
+    salary:"Not Disclosed",
+    location:"Chennai, Tamil Nadu, India",
+    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
+    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    
 }
 ]
 

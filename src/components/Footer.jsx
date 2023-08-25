@@ -1,6 +1,7 @@
 import '../componentscss/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTelegram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -11,7 +12,7 @@ function Footer() {
                     <li><a href="https://t.me/devotiontocode"><FontAwesomeIcon icon={faTelegram} />Telegram</a></li>
                     <li><a href="https://chat.whatsapp.com/BhTQl7F9Nky1B5XxxqPqsm"><FontAwesomeIcon icon={faWhatsapp} />Whatsapp</a></li>
                 </ul>
-                <div className='t'><a className="a" href='/TermsAndCondition'>TermsAndCondition</a></div>
+                <div className='t'><Link to="/TermsAndCondition" className='a'>TermsAndCondition</Link></div>
             </div>
         </div>
     );

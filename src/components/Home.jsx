@@ -19,12 +19,12 @@ function Home() {
                         <div className="container-Jobs">
                             <div className='title'><h1>{job.title}</h1>
                                 <p>
-                                    {job.info}
+                                    {job.post}
                                 </p>
-                                <p>{job.stream}</p>
+                                <p>{job.Qualification}</p>
                                 </div>
                             <div className='btn'>
-                                <button href="/Portel" className="button-1" >Apply</button>
+                            <Link to="/JobTable" state={job} className="button-1">Apply</Link>
                             </div>
                         </div>)
                 }

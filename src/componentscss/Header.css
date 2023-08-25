@@ -3,9 +3,18 @@
     height: 5rem;
     margin-right: 2%;
 }
+.link{
+    color: aliceblue;
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 600px){
     .text{
+        size: 1px;
+        font-size: 0.7rem;
+        margin: 0%;
+    }
+    .text1{
         size: 1px;
         font-size: 0.7rem;
         margin: 0%;

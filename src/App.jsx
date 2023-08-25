@@ -1,48 +1,35 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./components/Home";
-import ContactUs from "./components/ContactUs";
-import About from "./components/About";
-import Jobs from "./components/Jobs";
-import './App.css';
-import Portel from "./components/Portel";
-import TermsAndCondition from "./components/TermsAndCondition";
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; // Import BrowserRouter, Route, and Routes
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import ContactUs from './components/ContactUs';
+import About from './components/About';
+import Jobs from './components/Jobs';
+import Portel from './components/Portel';
+import TermsAndCondition from './components/TermsAndCondition';
+import JobTable from './components/JobTable';
 
 
 function App() {
-  const router = createBrowserRouter([
-    {
-    path:"Home",
-    element:<Home />
-    },
-  {
-    path:"ContactUs",
-    element:<ContactUs></ContactUs>
-  },
-{
-  path:"About",
-  element:<About></About>
-},
-{
-  path:"Jobs",
-  element:<Jobs></Jobs>
-},
-{
-  path:"Portel",
-  element:<Portel></Portel>
-},
-{
-  path:"TermsAndCondition",
-  element:<TermsAndCondition></TermsAndCondition>
-}]);
   return (
     <div className="App">
-      <Header></Header>
-      <div className="router">
-      <RouterProvider className="root" router={router} />
-      </div>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Header />
+        <div className="router">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/ContactUs" element={<ContactUs />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Jobs" element={<Jobs />} />
+            <Route path="/Portel" element={<Portel />} />
+            <Route path="/TermsAndCondition" element={<TermsAndCondition />} />
+            <Route path="/JobTable" element={<JobTable  />} />
+          </Routes>
+        </div>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
