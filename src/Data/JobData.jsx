@@ -26,7 +26,7 @@ const Jobs = [
     salary:"Not Disclosed",
     location:"Hyderabad, India",
     requriments:"Experience in the following programming languages: Java, Python, R, C#, or C++ and RPA tools Developing, designing, implementing, and supporting business processes in an SAP environments Knowledge on SAP Business Planning and Consolidation systems and Anaplan Familiarity with Machine learning, AI tools like Tableau and Power BI Have experience with software engineering, expressed by previous Internships, work experience, projects, or publications Understand and Support financial planning, forecasting, and analysis (FP&A) project work streams Good written, verbal, and analytical skills",
-    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    link:"https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25235&siteid=5359&PageType=JobDetails&jobid=1996963#jobDetails=1996963_5359",
     
 },
 {
