@@ -4,22 +4,23 @@ import { useLocation } from "react-router-dom";
 
 const JobTable = () => {
   const location = useLocation();
+  const jobData = location.state;
 
   const handleApplyClick = () => {
-    window.location.href = location.state.link;
+    window.location.href = jobData.link;
   };
 
   return (
     <div className='JobTable'>
       <div className="title-1">
-        <h1>{location.state.fulltitle}</h1>
+        <h1>{jobData.fulltitle}</h1>
       </div>
       <div className="about-short">
-        <p>{location.state.about}</p>
+        <p>{jobData.about}</p>
       </div>
       <div className="aboutcompany">
         <h1>About Company</h1>
-        <h2>{location.state.aboutcompany}</h2>
+        <h2>{jobData.aboutcompany}</h2>
       </div>
       <div className="job-table">
         <table>
@@ -32,34 +33,34 @@ const JobTable = () => {
           <tbody>
             <tr>
               <td>post</td>
-              <td>{location.state.post}</td>
+              <td>{jobData.post}</td>
             </tr>
             <tr>
               <td>Experience</td>
-              <td>{location.state.Experience}</td>
+              <td>{jobData.Experience}</td>
             </tr>
             <tr>
               <td>Qualification</td>
-              <td>{location.state.Qualification}</td>
+              <td>{jobData.Qualification}</td>
             </tr>
             <tr>
               <td>year of pass</td>
-              <td>{location.state.year}</td>
+              <td>{jobData.year}</td>
             </tr>
             <tr>
               <td>salary</td>
-              <td>{location.state.salary}</td>
+              <td>{jobData.salary}</td>
             </tr>
             <tr>
               <td>location</td>
-              <td>{location.state.location}</td>
+              <td>{jobData.location}</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div className='requriments'>
       <h2>Requriments</h2>
-      <p>{location.state.requriments}</p>
+      <p>{jobData.requriments}</p>
       </div>
       <div className="button-link">
         <button onClick={handleApplyClick} >Apply</button>
