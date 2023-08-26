@@ -25,7 +25,7 @@ function App() {
             <Route path="/Jobs" element={<Jobs />} />
             <Route path="/Portel" element={<Portel />} />
             <Route path="/TermsAndCondition" element={<TermsAndCondition />} />
-            <Route path="/JobTable" element={<JobTable  />} />
+            <Route path="/JobTable/:index" element={<JobTable />} />
           </Routes>
         </div>
         <Footer />

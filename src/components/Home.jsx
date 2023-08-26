@@ -15,7 +15,7 @@ function Home() {
             </div>
             <div className="box">
                 {
-                    jobs.map(job =>
+                    jobs.map((job,index) =>
                         <div className="container-Jobs">
                             <div className='title'><h1>{job.title}</h1>
                                 <p>
@@ -24,7 +24,7 @@ function Home() {
                                 <p>{job.Qualification}</p>
                                 </div>
                             <div className='btn'>
-                            <Link to="/JobTable" state={job} className="button-1">Apply</Link>
+                            <Link to={`/JobTable/${index}`} className="button-1">Apply</Link>
                             </div>
                         </div>)
                 }

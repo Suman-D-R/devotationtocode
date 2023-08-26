@@ -1,10 +1,12 @@
 import React from "react";
 import "../componentscss/JobTable.css";
-import { useLocation } from "react-router-dom";
+import {useParams} from "react-router-dom";
+import jobs from '../Data/JobData';
 
 const JobTable = () => {
-  const location = useLocation();
-  const jobData = location.state;
+  const { index } = useParams();
+  
+  const jobData = jobs[index];
 
   const handleApplyClick = () => {
     window.location.href = jobData.link;
