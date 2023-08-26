@@ -4,9 +4,9 @@ import {useParams} from "react-router-dom";
 import jobs from '../Data/JobData';
 
 const JobTable = () => {
-  const { index } = useParams();
+  const { title } = useParams();
   
-  const jobData = jobs[index];
+  const jobData = jobs.find(job => job.title === title);
 
   const handleApplyClick = () => {
     window.location.href = jobData.link;
