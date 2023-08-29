@@ -91,18 +91,18 @@ const Jobs = [
 
 },
 {
-    title:"Zoho",
-    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
-    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
-    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
-    post:"Technical Support Engineer",
+    title:"Krishworks Technology And Research Labs",
+    fulltitle:"Krishworks Technology And Research Labs Off Campus Drive Freshers Recruitment",
+    aboutcompany:"We are a software development company. We specialize in mobile app development , website development on wordpress, content development, Learning Management System mobile app and web app, customized LMS portals, ERP software for schools etc. We are an award winning portfolio company of IIM Calcutta innovation park and ISb Dlabs.",
+    about:"Krishworks Technology Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech- 2022/2023 passed out. The detailed eligibility and application process are given below.",
+    post:"Full Stack Developer",
     Experience:"Freshers/Experneced",
-    Qualification:"Any Degree",
+    Qualification:"B.Tech/B.E. in Computers, BCA in Computers MCA in Computers",
     year:"Any Batch",
-    salary:"Not Disclosed",
-    location:"Chennai, Tamil Nadu, India",
-    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
-    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    salary:"₹4,00,000-₹6,00,000/-per annum",
+    location:"Bangalore/Bengaluru(Whitefield)",
+    requriments:"1. 0-1 years of relevant experience with strong hands-on coding and design skills. 2. Hands-on experience in JavaScript, jQuery and Ajax, HTML5, CSS3 and bootstrap. 3. Proven knowledge of having worked with React frameworks. 4. Proven knowledge of having worked with back-end, database and cloud technologies (Firebase/GCP/AWS/Azure etc.). 5. Familiar with testing, debugging, and logging techniques and tools. 6. Strong analytical skills and problem-solving techniques. 7. Excitement and passion to work on amazing products. 8. Desired experience on database management systems (MySQL/MongoDB/Firestore etc.). ",
+    link:"https://www.firstnaukri.com/job-listings-react-js-developer-krishworks-technology-and-research-labs-bangalore-bengaluru-0-to-1-years-310723006336?sid=16933046668026252&jobPosition=1&src=homepage&ref-src=hamburger",
     
 },
 {
