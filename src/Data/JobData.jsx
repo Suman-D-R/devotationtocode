@@ -106,18 +106,18 @@ const Jobs = [
     
 },
 {
-    title:"Zoho",
-    fulltitle:"Zoho Off Campus Drive Freshers Recruitment",
-    aboutcompany:"Zoho Office Suite is an Indian web-based online office suite containing word processing, spreadsheets, presentations, databases, note-taking, wikis, web conferencing, customer relationship management, project management, invoicing and other applications. It is developed by Zoho Corporation",
-    about:"India Cements Off Campus Drive 2023 – India Cements is scheduled to hire a Graduate Trainee for B.E/B.Tech/Diploma graduates- 2022/2023 passed out. The detailed eligibility and application process are given below.",
-    post:"Technical Support Engineer",
+    title:"Jupiter AI Labs",
+    fulltitle:"Jupiter AI Labs Freshers Recruitment ",
+    aboutcompany:"Jupiter AI Labs Freshers Recruitment As QA Automation Intern | B.E/B.Tech | Across India",
+    about:"Jupiter AI Labs Recruitment 2023 – Jupiter AI Labs is scheduled to hire for the role of QA Automation Intern for B.E/B.Tech students. The detailed eligibility criteria and application process are given below.",
+    post:"Automation Intern",
     Experience:"Freshers/Experneced",
-    Qualification:"Any Degree",
+    Qualification:"B.E/B.Tech students",
     year:"Any Batch",
-    salary:"Not Disclosed",
-    location:"Chennai, Tamil Nadu, India",
-    requriments:"Excellent in written and spoken English Proficient in offering phone-based support to US and UK customers Have an experience of 6 months or more in client-facing roles Need to be open to relocation and working night shifts Interested in learning new technologies",
-    link:"https://careers.zohocorp.com/forms/5ce42e60ad6480014ad0f4bbe72694fb968693af4b647d244f93d070e1aedc9b",
+    salary:"Intern 5k/month after 25k",
+    location:" Remote",
+    requriments:"Develop and maintain automated test scripts using industry-standard testing frameworks, tools, and scripting languages. Collaborate with QA engineers to identify test requirements and design efficient and effective test cases. Execute automated test scripts and perform manual testing as needed. Identify, report, and track software defects and issues using bug tracking systems. Assist in troubleshooting and isolating issues encountered during testing and collaborate with developers to resolve them. Contribute to the continuous improvement of the QA process, including suggesting process enhancements and best practices. Stay up-to-date with industry trends, emerging technologies, and best practices in QA automation. Document test procedures, test results, and other relevant documentation. Participate in team meetings and provide status updates on assigned tasks. Collaborate with cross-functional teams, including software developers, product managers, and business analysts, to ensure software quality.",
+    link:"https://www.linkedin.com/jobs/view/3704368334/",
     
 }
 ]
